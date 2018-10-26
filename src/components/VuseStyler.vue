@@ -131,6 +131,7 @@ export default {
   watch: {
     colorerColor: function () {
       this.changeColor();
+      this.updateOption();
     },
     textColor: function () {
       this.execute('forecolor', this.textColor)
